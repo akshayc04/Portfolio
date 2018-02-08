@@ -1,5 +1,6 @@
 /*Custom Style*/
-
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 body {
 	font-family:'Montserrat',sans-serif;
 }
@@ -23,13 +24,14 @@ body {
 hr.star {
 	margin:25px auto 30px;
 	padding:0;
-	max-width:250px;
+	max-width:350px;
 	border:0;
 	border-top:solid 5px;
 	text-align:center;
 }
 hr.star:after {
-	color:#fff;	
+	color:#2ecc71;
+	background: darkcyan;
 	content:"\2605";
 	position:relative;
 	top:-.8em;
@@ -40,16 +42,22 @@ hr.star:after {
 
 /* Navigation Styling */
 .navbar {
-	background: #34495e;
+	background: khaki;
 	padding: 17px;
 }
 .navbar .navbar-brand {
-	
+	color: #34495e;
+	font-size: 2em;
 }
 .navbar .navbar-brand:hover {
-
+	color: #34495e;
+	font-size: 3em;
 }
 .navbar-inverse .navbar-nav>li>a {
+	color: #34495e;
+	font-size: 2em;
+	font-weight: bold;
+
 
 }
 .navbar-inverse .navbar-nav>.active>a,
@@ -62,7 +70,8 @@ hr.star:after {
 
 /* Header Styling */
 #header {
-	
+	background: burlywood;
+
 }
 #header .icon {
 	
@@ -72,7 +81,7 @@ hr.star:after {
 }
 
 #header hr.star:after{
-	
+	color: #2ecc71;
 }
 /*down arrow icon*/
 #header a:hover {
@@ -83,13 +92,13 @@ hr.star:after {
 
 /* Work Styling */
 #work {
-	
+	background: aliceblue;
 }
 #work img {
 
 }
 #work hr.star:after {
-
+	color: #2ecc71;
 }
 
 #work .portfolio-item {
@@ -98,12 +107,16 @@ hr.star:after {
 
 /*Hover effect*/
 #work .portfolio-item img {
-
+	border-radius: 15px ;
+	margin: 20px 0;
+	opacity: 1;
+	transition: all .3s;
 }
 
 #work .portfolio-item img:hover {
-	
 
+	margin: 5px 0;
+	opacity: .7;
 }
 
 
