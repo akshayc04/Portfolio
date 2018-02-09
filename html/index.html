@@ -46,23 +46,42 @@
 
   <body>
 
-  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark navbar-fixed-top" role="navigation" >
+
+  <!------------------------------------------ Navbar section --------------------------------------------------->
+  <nav class="navbar navbar-expand-sm navbar navbar-dark bg-dark navbar-fixed-top" role="navigation" >
+
+
 
       <a class="navbar-brand" href="#">P O R T F O L I O</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler progress-container" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
+
       </button>
+
 
       <div class="collapse navbar-collapse">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                   <a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
               </li>
+
               <li class="nav-item">
-                  <a class="nav-link" href="#work">My Work</a>
+                  <a class="nav-link" href="#about">About</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="#work">Projects</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="#resume">Resume</a>
               </li>
 
               <li class="nav-item">
@@ -70,13 +89,16 @@
               </li>
           </ul>
       </div>
+
+
+          <div class="progress-bar" id="myBar"></div>
+
   </nav>
 
-
-
+  <!------------------------------------------ Header section --------------------------------------------------->
     <div>
 
-      <section id="header" class='text-center padding'>
+        <section id="header" class='text-center padding'>
 
         <div class="container padding">
 
@@ -107,8 +129,60 @@
       </section>
     </div>
 
-      <!-- portfolio section -->
-      <section id="work" class='text-center'>
+
+
+
+  <!------------------------------------------ About section --------------------------------------------------->
+  <section id="about" class='text-center padding'>
+
+      <div class="container">
+
+
+          <h3 class="title">About</h3>
+          <hr class="star"><br>
+
+          <div class="row">
+
+
+
+
+
+          </div><!-- row -->
+      </div><!-- container -->
+
+
+  </section>
+
+
+
+
+  <!------------------------------------------ Skills section --------------------------------------------------->
+  <section id="skills" class='text-center padding'>
+
+      <div class="container">
+
+
+          <h3 class="title">Skills</h3>
+          <hr class="star"><br>
+
+          <div class="row">
+
+
+
+
+
+          </div><!-- row -->
+      </div><!-- container -->
+
+
+  </section>
+
+
+
+
+
+  <!----------------------------------------- portfolio(work) section--------------------------------------------- -->
+      <section id="work" class='text-center padding'>
 
         <div class="container">
 
@@ -141,27 +215,53 @@
 
       </section>
 
-     
 
-    <!-- contact section -->
-     <section id="contact" class='text-center'>
+
+
+  <!------------------------------------------ Resume section --------------------------------------------------->
+
+  <section id="resume" class='text-center padding'>
+
+      <div class="container">
+
+
+          <h3 class="title">Resume</h3>
+          <hr class="star"><br>
+
+          <div class="row">
+
+
+
+
+
+          </div><!-- row -->
+      </div><!-- container -->
+
+
+  </section>
+
+
+
+
+  <!------------------------------------------ Contact section --------------------------------------------------->
+
+     <section id="contact" class='text-center padding'>
 
         <h3 class="title">Contact Me</h3>
         <hr class="star">
            
         <div class="container">
-          <div class="row">
+          <div class="row padding_sml">
 
               <div class="contact-form col-md-7">
 
-                <h3>Shoot me an email</h3><br>
+                <h3>Shoot me an E-mail</h3><br>
 
 
                   <form>
                       <div class="form-group">
                           <label for="exampleInputEmail1">Email address</label>
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                       </div>
                       <div class="form-group">
                           <label for="exampleInputPassword1">Password</label>
@@ -184,7 +284,7 @@
 
             <div class="social-media col-md-5">
 
-              <h3>Stay in Touch</h3><br>
+              <h3>Let's Stay in Touch Through Social Networks</h3><br>
 
               <ul class="socials list-inline">
                   <li>
@@ -220,13 +320,19 @@
 </div><!-- /.container nomargin -->
 
 
+
+
+
+
+
+  --------------------------------------------------------------------------------------------------------------------------------------------
     <!-- Bootstrap core JavaScript
-    ================================================== -->
+    =========================================================================================================== -->
     <!-- Placed at the end of the document so the pages load faster
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>-->
+    <script src="js/bootstrap.min.js"></script> -->
 
 
+    <script type="text/javascript" src="../js/myportfolio.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
