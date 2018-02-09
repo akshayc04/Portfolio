@@ -3,14 +3,17 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 body {
 	font-family:'Montserrat',sans-serif;
+	position: relative;
 }
+
+
 .container.nomargin {
 	margin:0;
 	padding:0;
 	width:100%;
 }
 .padding {
-	padding:80px 0;
+	padding:70px 0;
 }
 
 .margin {
@@ -21,6 +24,26 @@ body {
 	font-family:'Lato',sans-serif;
 	display:block;
 }
+
+.title1 {
+	font-size: 3em;
+	font-family: "fantasy";
+	font-weight: bold;
+	display: block;
+}
+.sub-title{
+	font-size:2em;
+	font-family: "fantasy";
+	display:block;
+}
+
+.sub-title1{
+	font-size:2em;
+	font-family: "fantasy";
+	display:block;
+	color: red;
+}
+
 hr.star {
 	margin:25px auto 30px;
 	padding:0;
@@ -32,7 +55,7 @@ hr.star {
 hr.star:after {
 	color:#2ecc71;
 	background: darkcyan;
-	content:"\2605";
+	content:"\2600";
 	position:relative;
 	top:-.8em;
 	padding:0 .25em;
@@ -43,28 +66,51 @@ hr.star:after {
 /* Navigation Styling */
 .navbar {
 	background: khaki;
-	padding: 17px;
+	padding: 10px;
 }
 .navbar .navbar-brand {
-	color: #34495e;
+	color: #ffffff;
+	font-family: "Britannic Bold";
 	font-size: 2em;
 }
+
+.navbar .navbar-nav .nav-link{
+	color: #ffffff;
+	font-size: 2em;
+}
+
+
+.navbar-fixed-top {
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	top: 0;
+}
+
 .navbar .navbar-brand:hover {
-	color: #34495e;
+	color: burlywood;
 	font-size: 3em;
 }
-.navbar-inverse .navbar-nav>li>a {
+
+.navbar .navbar-nav .nav-link:hover {
+	color: burlywood;
+	font-size: 3em;
+}
+
+.navbar .navbar-nav>li>a {
 	color: #34495e;
 	font-size: 2em;
 	font-weight: bold;
-
+	font-family: "Trebuchet MS";
+	margin-right: 15px;
 
 }
-.navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.active>a:hover,
-.navbar-inverse .navbar-nav>.active>a:focus,
-.navbar-inverse .navbar-nav>.active>a {
-	
+.navbar .navbar-nav>.active>a,
+.navbar .navbar-nav>.active>a:hover,
+.navbar .navbar-nav>.active>a:focus,
+.navbar .navbar-nav>.active>a {
+
 }
 
 
@@ -89,6 +135,32 @@ hr.star:after {
 }
 
 
+.blink {
+	-webkit-animation: 1.5s linear infinite condemned_blink_effect; // for android
+animation: 1.5s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect {
+0% {
+	visibility: hidden;
+}
+50% {
+	visibility: hidden;
+}
+100% {
+	visibility: visible;
+}
+}
+@keyframes condemned_blink_effect {
+	0% {
+		visibility: hidden;
+	}
+	50% {
+		visibility: hidden;
+	}
+	100% {
+		visibility: visible;
+	}
+}
 
 /* Work Styling */
 #work {
