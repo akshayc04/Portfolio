@@ -212,6 +212,32 @@ animation: 1.5s linear infinite condemned_blink_effect;
 }
 
 
+{box-sizing:border-box}
+
+.container-skill {
+	width: 100%; /* Full width */
+	background-color: white; /* Grey background */
+}
+
+
+.skills {
+	text-align: right; /* Right-align text */
+	padding-right: 20px; /* Add some right padding */
+	line-height: 30px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+	color: white; /* White text color */
+}
+
+.html {width: 80%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 70%; background-color: #f44336;}
+.php {width: 60%; background-color: coral;}
+.java {width: 90%; background-color: #808080;}
+.cpp {width: 70%; background-color: hotpink;}
+.android {width: 90%; background-color: orangered;}
+.swift {width: 60%; background-color: purple;}
+.wordpress {width: 60%; background-color: goldenrod;}
+
+
 
 /*------------------------------------------ Work Styling-------------------------------------------------- */
 #work {
