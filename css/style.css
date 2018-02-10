@@ -51,6 +51,14 @@ body {
 	color: red;
 }
 
+.left_align{
+	float: left;
+}
+
+.right_align{
+	float: right;
+}
+
 hr.star {
 	margin:25px auto 30px;
 	padding:0;
@@ -145,8 +153,13 @@ hr.star:after {
 /*------------------------------------------ Header Styling-------------------------------------------------- */
 #header {
 	background: ghostwhite;
+}
+
+#header img{
+	border-radius: 50%;
 
 }
+
 #header .icon {
 
 }
@@ -334,6 +347,7 @@ animation: 1.5s linear infinite condemned_blink_effect;
 }
 
 #contact .btn-primary {
+	background: #34495e ;
 
 }
 
