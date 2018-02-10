@@ -209,6 +209,11 @@ animation: 1.5s linear infinite condemned_blink_effect;
 	background: burlywood;
 }
 
+#about .text-style{
+	font-family: "Palatino Linotype";
+	line-height: 30px;
+}
+
 #about hr.star:after {
 
 	background: burlywood;
@@ -230,6 +235,21 @@ animation: 1.5s linear infinite condemned_blink_effect;
 .container-skill {
 	width: 100%; /* Full width */
 	background-color: white; /* Grey background */
+}
+
+.text-style{
+	font-family: "Palatino Linotype";
+}
+
+.text_left{
+	text-align: left;
+	margin-left: 80px;
+}
+
+.text_left1{
+	text-align: left;
+	margin-left: 80px;
+	margin-right: 80px;
 }
 
 
