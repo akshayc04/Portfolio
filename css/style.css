@@ -357,9 +357,10 @@ animation: 1.5s linear infinite condemned_blink_effect;
 
 }
 #contact .socials a {
-
+color: black;
 }
 #contact .socials>li:hover a {
+	color: teal;
 
 }
 #contact .socials>li:hover i {
@@ -378,11 +379,11 @@ animation: 1.5s linear infinite condemned_blink_effect;
 
 /*------------------------------------ Footer Styling--------------------------------------------------- */
 footer {
-
+background: #34495e;
 }
 
 footer p {
-
+color: white;
 }
 
 
