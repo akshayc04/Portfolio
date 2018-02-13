@@ -1,6 +1,9 @@
 {
   "name": "Portfolio",
   "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "latest",
@@ -9,4 +12,6 @@
     "nodemailer": "^4.4.2",
     "npm": "latest"
   }
+
+
 }
