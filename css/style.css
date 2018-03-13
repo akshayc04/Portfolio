@@ -265,12 +265,12 @@ animation: 1.5s linear infinite condemned_blink_effect;
 }
 
 .html {width: 80%; background-color: #4CAF50;}
-.css {width: 80%; background-color: #2196F3;}
+.css {width: 70%; background-color: #2196F3;}
 .js {width: 70%; background-color: #f44336;}
-.php {width: 60%; background-color: coral;}
-.java {width: 90%; background-color: #808080;}
+.php {width: 50%; background-color: coral;}
+.java {width: 80%; background-color: #808080;}
 .cpp {width: 70%; background-color: hotpink;}
-.android {width: 90%; background-color: orangered;}
+.android {width: 80%; background-color: orangered;}
 .swift {width: 60%; background-color: purple;}
 .wordpress {width: 60%; background-color: goldenrod;}
 
@@ -481,6 +481,13 @@ color: black;
 #contact .btn-primary:hover{
 
 }
+
+
+/*------------------------------------ scroll animation Styling--------------------------------------------------- */
+
+
+
+
 
 
 /*------------------------------------ Footer Styling--------------------------------------------------- */
