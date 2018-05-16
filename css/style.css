@@ -270,8 +270,8 @@ animation: 1.5s linear infinite condemned_blink_effect;
 .php {width: 50%; background-color: coral;}
 .java {width: 80%; background-color: #808080;}
 .cpp {width: 70%; background-color: hotpink;}
-.android {width: 80%; background-color: orangered;}
-.swift {width: 60%; background-color: purple;}
+.android {width: 70%; background-color: orangered;}
+.swift {width: 75%; background-color: purple;}
 .wordpress {width: 60%; background-color: goldenrod;}
 
 
