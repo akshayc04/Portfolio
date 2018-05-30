@@ -19,6 +19,7 @@ let modal4 = document.getElementById('myModal4');
 let modal5 = document.getElementById('myModal5');
 let modal6 = document.getElementById('myModal6');
 let modal7 = document.getElementById('myModal7');
+let modal8 = document.getElementById('myModal8');
 
 
 // Get the button that opens the modal
@@ -29,6 +30,7 @@ let btn4 = document.getElementById("img4");
 let btn5 = document.getElementById("img5");
 let btn6 = document.getElementById("img6");
 let btn7 = document.getElementById("img7");
+let btn8 = document.getElementById("img8");
 
 
 // Get the <span> element that closes the modal
@@ -39,6 +41,7 @@ let span4 = document.getElementById("close4");
 let span5 = document.getElementById("close5");
 let span6 = document.getElementById("close6");
 let span7 = document.getElementById("close7");
+let span8 = document.getElementById("close8");
 
 
 // When the user clicks the button, open the modal
@@ -68,6 +71,10 @@ btn6.onclick = function() {
 
 btn7.onclick = function() {
     modal7.style.display = "block";
+};
+
+btn8.onclick = function() {
+    modal8.style.display = "block";
 };
 
 
@@ -102,6 +109,9 @@ span7.onclick = function() {
     modal7.style.display = "none";
 };
 
+span8.onclick = function() {
+    modal8.style.display = "none";
+};
 
 
 // When the user clicks anywhere outside of the modal, close it
@@ -132,6 +142,10 @@ window.onclick = function(event) {
 
         if (event.target == modal7) {
             modal7.style.display = "none";
+        }
+
+        if (event.target == modal8) {
+            modal8.style.display = "none";
         }
 
     };
